@@ -2,10 +2,12 @@
 import React from "react";
 import Button from "./Button";
 
+import "../variables.scss";
+
 export default {
     title: "Button"
 };
 
-export const WithBar = () => <Button foo="bar" />;
+export const WithBar = () => <Button label="bar" />;
 
-export const WithBaz = () => <Button foo="baz" />;
+export const WithBaz = () => <Button label="baz" />;

@@ -4,10 +4,10 @@ import { Button as BSButton } from "react-bootstrap";
 
 import { ButtonProps } from "./Button.types";
 
-import "./Button.scss";
+// import "./Button.scss";
 
-const Button: React.FC<ButtonProps> = ({ foo }) => (
-    <BSButton>{foo}</BSButton>
+const Button: React.FC<ButtonProps> = ({ label }) => (
+    <BSButton>{label}</BSButton>
 );
 
 export default Button;
