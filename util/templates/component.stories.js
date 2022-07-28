@@ -1,6 +1,5 @@
 module.exports = (componentName) => ({
-  content: `// Generated with util/create-component.js
-import React from "react";
+  content: `import React from "react";
 import ${componentName} from "./${componentName}";
 
 export default {
@@ -8,8 +7,6 @@ export default {
 };
 
 export const WithBar = () => <${componentName} foo="bar" />;
-
-export const WithBaz = () => <${componentName} foo="baz" />;
 `,
   extension: `.stories.tsx`
 });
