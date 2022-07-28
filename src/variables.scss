@@ -1,18 +1,12 @@
-// Variables
-$harvey-black: #131111;
-$harvey-white: #e0e0e0;
-$harvey-red: #ff2323;
-$harvey-green: #005f20;
-$harvey-blue: #070bce;
+$theme-colors: (
+  "primary":    #97E3C2,
+  "secondary":  #97D5FE,
+  "success":    #97E3C2,
+  "danger":     #DC3545,
+  "warning":    #ffc107,
+  "info":       #0dcaf0,
+  "light":      #FFFFFA,
+  "dark":       #2C2C2E
+);
 
-:root {
-  --background: #fff;
-  --font-color: #494949;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #3c3c3c;
-    --font-color: #fafafa;
-  }
-}
+@import "../node_modules/bootstrap/scss/bootstrap";
