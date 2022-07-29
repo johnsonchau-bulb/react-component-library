@@ -6,7 +6,7 @@ export default {
     title: "${componentName}"
 };
 
-export const WithBar = () => <${componentName} foo="bar" />;
+export const Normal${componentName} = () => <${componentName} foo="bar" />;
 `,
   extension: `.stories.tsx`
 });
